@@ -1,2 +1,7 @@
+name = str
 def rahul():
-    print("Hello Rahul")
+    global name
+    name = print("Hello Rahul")
+
+def patil():
+    print(f"{name} Patil " )
